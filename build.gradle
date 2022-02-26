@@ -22,6 +22,7 @@ dependencies {
 allure {
     adapter {
         aspectjWeaver.set(true)
+        aspectjVersion = "1.9.4"
         frameworks {
             junit5 {
                 adapterVersion.set("2.17.2")
